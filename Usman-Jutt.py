@@ -323,8 +323,8 @@ def action():
 if __name__ == '__main__':
     menu()
            
-                  except:
-            pass
+      
+            
         
     p = ThreadPool(30)
     p.map(main, id)
